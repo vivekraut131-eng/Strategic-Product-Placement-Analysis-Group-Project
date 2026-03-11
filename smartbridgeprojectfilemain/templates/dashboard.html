@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strategic Product Placement Analysis | Tableau Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="title">Strategic Product Placement Analysis: Unveiling Sales Impact with Tableau Visualization</h1>
+      <p class="description">
+        This dashboard explores how product placement, pricing versus competitors, consumer demographics,
+        seasonal trends, and foot traffic influence sales volume. Use the filters in the visualization
+        to compare categories, positions, and demographics.
+      </p>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <div class="dashboard-container">
+        <iframe
+          src="https://public.tableau.com/views/smartprojectmaintablufile/Dashboard4?:showVizHome=no&:embed=true"
+          width="100%"
+          height="900"
+          frameborder="0"
+          allowfullscreen
+          title="Strategic Product Placement Analysis Dashboard">
+        </iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Data pipeline: Python · Pandas · Flask · Tableau Public</p>
+    </div>
+  </footer>
+</body>
+</html>
